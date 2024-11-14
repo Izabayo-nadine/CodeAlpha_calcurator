@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcurator</title>
+    <link  rel="stylesheet"  href="calc.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="display">
+        <div class="buttons">
+         <button onclick="cleard()">C</button>
+         <button onclick="delet()">DEL</button>
+         <button onclick="getChar('/')">/</button>
+         <button onclick="getChar('*')">*</button>
+
+         <button onclick="getChar('7')">7</button>
+         <button onclick="getChar('8')">8</button>
+         <button onclick="getChar('9')">9</button>
+         <button onclick="getChar('-')">-</button>
+
+         <button onclick="getChar('6')">6</button>
+         <button onclick="getChar('5')">5</button>
+         <button onclick="getChar('4')">4</button>
+         <button onclick="getChar('+')">+</button>
+
+         <button onclick="getChar('3')">3</button>
+         <button onclick="getChar('2')">2</button>
+         <button onclick="getChar('1')">1</button>
+         <button onclick="calcurate()">=</button>
+
+
+         <button onclick="getChar('0')" class="zero" span="col-">0</button>
+         <button onclick="getChar('.')">.</button>
+         <button onclick="percentage()">%</button>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
